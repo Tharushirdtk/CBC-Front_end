@@ -10,8 +10,12 @@ function App() {
 
   return (
     <>
-    <ProductCard name="Laptop" price="$99.99" src="C:\Users\USER\Downloads\17578817411582823579-128.png"></ProductCard>
-    <UserData> </UserData>
+    <BrowserRouter>
+    <Routes path="/*">          
+    <Route path="/*" element={<HomePage/>}/>   
+    <Route path="/login" element={<LoginPage/>}/>
+    </Routes>
+    </BrowserRouter>
     </>
   )
 }
