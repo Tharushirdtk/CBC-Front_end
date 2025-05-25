@@ -1,0 +1,36 @@
+.background {
+   background-color: rgb(112, 94, 118);
+   width: 370px;
+   height: 290px;
+   border: 1px solid black;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+
+.val{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 60px;
+    background-color:rgb(134, 105, 196);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+ span{
+    font-size: 60px;
+    position: left;
+ }
+
+ h1{
+   position: absolute;
+   top: 0;
+ }
+
+ .button-Panel{
+   position: absolute;
+   bottom: 240px;
+ }
